@@ -1,0 +1,96 @@
+.row {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-logo {
+  width: 100px;
+  display: inline-block;
+}
+
+.nav-logo img {
+  height: 32px;
+  width: 78px;
+}
+
+.navbar-nav {
+  padding: 10px 0;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+}
+
+.left-nav i {
+  color: #fff;
+  font-size: 16px;
+  margin-left: 40px;
+}
+
+.left-nav i:hover {
+  color: #b1adad;
+}
+
+#entry {
+  padding: 230px 0px;
+  background-image: url(../img/hero1.jpg);
+  top: 0;
+  height: 750px;
+}
+
+#entry .entry-text {
+  color: #fff;
+  font-size: 1.8em;
+  line-height: 1.6em;
+}
+
+#entry #entry-img {
+  position: absolute;
+  width: 333px;
+  bottom: 8px;
+  left: 218px;
+}
+
+#entry .btn {
+  background-color: #425cbb;
+  position: absolute;
+  top: 49px;
+  right: 452px;
+  border-radius: 100px;
+  border-color: #425cbb;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+}
+
+#entry .btn span {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-weight: 590;
+}
+
+#entry .list-items {
+  position: absolute;
+  top: 290px;
+  left: 415px;
+}
+
+#entry .list-items li {
+  margin-right: 45px;
+}
+
+#entry .list-items li a i {
+  font-size: 30px;
+  color: #b1adad;
+}
+
+#entry .list-items li a i:hover {
+  content: "";
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
